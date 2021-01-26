@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>WEATHER APP</title>
+  </head>
+  <body>
+    <h1>SHIVAM TIWARI WEATHER APP</h1>
+    <img src="" />
+
+    <main>
+      <form id="form">
+        <div>
+          <label for="city">Enter City : </label
+          ><input type="text" name="city" id="citi" placeholder="Mumbai" />
+        </div>
+        <div>
+          <input type="submit" />
+        </div>
+      </form>
+      <div id="info">
+        <h1 id="loading"></h1>
+        <div>Country :<span id="country"></span></div>
+        <div>City :<span id="city"></span></div>
+        <div>Temperature :<span id="temp"></span></div>
+        <div>Feels like :<span id="feels"></span></div>
+        <div>description:<span id="description"></span></div>
+      </div>
+      <div id="checkbox">
+        <button id="degree">celcius</button>
+        <button id="fah">fahrenhiet</button>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
